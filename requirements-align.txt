@@ -1,0 +1,5 @@
+# Versions observed in the dedicated .alignenv on 2026-11-09.
+# Do not merge these into requirements.txt: PyTorch/Transformers stay isolated.
+torch==2.11.0
+transformers==4.57.6
+numpy==2.5.4

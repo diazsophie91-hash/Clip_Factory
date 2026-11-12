@@ -1,0 +1,4 @@
+# Runtime packages confirmed in the working .venv on 2026-11-09.
+faster-whisper==1.2.1
+ctranslate2==4.8.5
+imageio-ffmpeg==0.8.1

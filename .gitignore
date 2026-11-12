@@ -1,0 +1,72 @@
+# Environnements Python
+/.venv/
+/.alignenv/
+/venv/
+/env/
+
+# Cache Python et tests
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Données locales et médias
+/media/
+/sessions/
+/library/
+/Library/
+
+# Sauvegardes et anciennes versions
+/backups/
+/Clip_Factory_MAJ_V0_*/
+*.backup_*
+
+# Fichiers temporaires et journaux
+*.log
+*.tmp
+
+# Informations sensibles
+.env
+.env.*
+!.env.example
+
+# Donnees locales de l'application
+/data.json
+/studio.json
+/transcript.json
+
+# Resultats de validation generes localement
+/validation/latest_comparison.json
+/validation/baseline_manifest.json
+/validation/baseline_results.json
+/validation/comparison_results.json
+/validation/episode_segmentation_after_*.json
+/validation/episode_segmentation_baseline_*.json
+/validation/qmsum_topic_benchmark.json
+/validation/reference_spans.json
+/validation/annotations.json
+/validation/source_inventory.json
+/validation/frames/
+/validation/transcripts/
+
+
+# Scripts de dépannage ponctuels
+/PATCH_CORRECTIF.py
+/find_python312.ps1
+
+# Fichiers vidéo et audio locaux
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.flac
+
+# Résultats de validation générés
+/validation/baseline_results.json
+/validation/comparison_results.json
